@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" text="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <!-- <h2>1</h2> --> 
+                <h3>Spider Man</h3>
+                <p>Whose real name is Peter Parker, gains his superhuman powers after being bitten by a radioactive spider. He is
+                    known for his incredible agility, strength, and ability to cling to walls and
+                    shoot webs from his hands. He uses these powers to fight crime and protect the citizens of New York City.</p>
+                <a href="#" class="leia">Leia mais</a>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <h3>Iron Man</h3>
+                <p>Iron Man's real name is Tony Stark, a billionaire inventor who uses his technological expertise
+                    to create a powerful suit of armor that enhances his strength, speed,
+                    and durability. As a superhero, Iron Man fights to protect the world from various
+                    threats, including villains like the Mandarin, the Crimson Dynamo, and his own rogue A.I. system, Ultron.</p>
+                <a href="#" class="leia">Leia mais</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h3>Captain America</h3>
+                <p>Captain America is Steve Rogers, a young man who was transformed into a super-soldier during World War II after receiving an experimental serum.
+                    He wears a costume bearing the American flag and wields an indestructible shield made of vibranium.
+                    Steve fights to protect the world from various threats, including Nazis, HYDRA, and other villains.</p>
+                <a href="#" class="leia">Leia mais</a>
+            </div>
+        </div>
+        
+    </div>
+    <script rel="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 0.5
+        });
+    </script>
+</body>
+</html>
